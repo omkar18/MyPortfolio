@@ -69,3 +69,12 @@
 .contact-list {
     padding-left: 8rem;
 }
+
+
+/* Resume Page css */
+
+.resume-right-col {
+    background: rgb(34, 31, 31);
+    color: white;
+    padding: 2em;
+}

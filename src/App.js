@@ -16,10 +16,10 @@ class App extends Component {
       
       <div className="demo-big-content">
     <Layout>
-        <Header style={headercolor} title="Menu" scroll>
+        <Header style={headercolor} title={<Link style={{textDecoration:'none',color:'white'}} to="/">My Portfolio</Link>}>
             <Navigation>
                 <Link to="/resume">Resume</Link>
-                <Link to="/aboutme">About Me</Link>
+                {/* <Link to="/aboutme">About Me</Link> */}
                 <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contact Us</Link>
             </Navigation>
