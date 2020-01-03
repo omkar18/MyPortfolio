@@ -5,9 +5,10 @@ class Landing extends Component {
   render(){
 
     const landinggrid = {
-      background: '#8A2387',
-      background: '-webkit-linear-gradient(to left, #F27121, #E94057, #8A2387)',
-      background: 'linear-gradient(to left, #F27121, #E94057, #8A2387)',
+      // background: '#8A2387',
+      // background: '-webkit-linear-gradient(to left, #F27121, #E94057, #8A2387)',
+      // background: 'linear-gradient(to left, #F27121, #E94057, #8A2387)',
+      backgroundImage: 'linear-gradient(to right, #43e97b 0%, #38f9d7 100%)',
       position:'fixed',
       top: '0',
       left: '0',
@@ -16,8 +17,9 @@ class Landing extends Component {
       textAlign:'center'
   }
 
+
   const avatarImg = {
-    height: '200px',
+    height: '100px',
     paddingTop: '5em'
   }
 

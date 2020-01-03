@@ -7,24 +7,26 @@ import {Link} from 'react-router-dom';
 class App extends Component {
   render() {
     const headercolor = {
-        background: '#8A2387',
-        background: '-webkit-linear-gradient(to left, #F27121, #E94057, #8A2387)',
-        background: 'linear-gradient(to left, #F27121, #E94057, #8A2387)'
+        // background: '#8A2387',
+        // background: '-webkit-linear-gradient(to left, #F27121, #E94057, #8A2387)',
+        // background: 'linear-gradient(to left, #F27121, #E94057, #8A2387)'
+        backgroundImage: 'linear-gradient(to right, #43e97b 0%, #38f9d7 100%)',
+
     }
 
     return (
       
       <div className="demo-big-content">
     <Layout>
-        <Header style={headercolor} title={<Link style={{textDecoration:'none',color:'white'}} to="/">My Portfolio</Link>}>
+        <Header style={headercolor} title={<Link style={{textDecoration:'none',color:'black'}} to="/">My Portfolio</Link>}>
             <Navigation>
-                <Link to="/resume">Resume</Link>
+                <Link style={{textDecoration:'none',color:'black'}}  to="/resume">Resume</Link>
                 {/* <Link to="/aboutme">About Me</Link> */}
-                <Link to="/projects">Projects</Link>
-                <Link to="/contact">Contact Us</Link>
+                <Link style={{textDecoration:'none',color:'black'}} to="/projects">Projects</Link>
+                <Link  style={{textDecoration:'none',color:'black'}}to="/contact">Contact Us</Link>
             </Navigation>
         </Header>
-        <Drawer title="Title">
+        <Drawer title="My Portfolio">
             <Navigation>
             <Link to="/resume">Resume</Link>
                 <Link to="/aboutme">About Me</Link>

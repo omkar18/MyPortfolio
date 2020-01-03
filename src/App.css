@@ -1,7 +1,7 @@
 .banner-text {
     background-color: #000000;
     opacity: .8;
-    width: 75%;
+    width: 55%;
     margin: auto;
     border-radius: 10px;
 }
@@ -77,4 +77,8 @@
     background: rgb(34, 31, 31);
     color: white;
     padding: 2em;
+}
+
+.navbar {
+    color: black;
 }
